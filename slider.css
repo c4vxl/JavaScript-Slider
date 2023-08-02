@@ -1,0 +1,47 @@
+/* Slider div */
+.slider_parent {
+    position: relative;
+}
+
+/* Dot container & dots */
+.slider_parent .dot_container {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+}
+.slider_parent .dot_container div {
+    width: 30px;
+    height: 3px;
+    border-radius: 300px;
+    display: inline-block;
+    margin: 5px;
+    background-color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.slider_parent .dot_container div.active {
+    background-color: rgb(80, 80, 80);
+}
+
+/* Buttons */
+.slider_parent .slider_next, .slider_parent .slider_last {
+    cursor: pointer;
+    font-size: xx-large;
+    transition: 0.3s;
+    user-select: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+}
+.slider_parent .slider_next:hover, .slider_parent .slider_last:hover {
+    color: rgb(126, 126, 126);
+    transform: scale(0.999);
+}
+.slider_parent .slider_last {
+    left: 0px;
+}
+.slider_parent .slider_next {
+    right: 0px;
+}
