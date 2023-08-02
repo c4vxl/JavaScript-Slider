@@ -29,9 +29,32 @@ To use the Element Slider Creator, follow these steps:
     <script defer src="slider.js"></script>
 </head>
 <body>
-    <div class="slider_parent">
-        <!-- Your slider content here -->
-    </div>
+   <div class="slider_parent">
+            
+        <a class="slider_last">◀</a>
+
+        <div class="slider_content">
+            <section>
+                <h1>Page1</h1>
+            </section>
+    
+            <section>
+                <h1>Page2</h1>
+            </section>
+    
+            <section>
+                <h1>Page3</h1>
+            </section>
+    
+            <section>
+                <h1>Page4</h1>
+            </section>
+        </div>
+
+        <a class="slider_next">▶</a>
+
+        <div class="dot_container"></div>
+    </div>  
 </body>
 </html>
 ```
