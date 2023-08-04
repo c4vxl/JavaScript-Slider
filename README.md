@@ -15,10 +15,10 @@ The Element Slider Creator is a tool that enables you to create element sliders 
 To use the Element Slider Creator, follow these steps:
 
 1. Add the `slider.css` and `slider.js` files to your project:
-   ```html
-    <link rel="stylesheet" href="slider.css">
-    <script defer src="slider.js"></script>
-   ```
+```html
+<link rel="stylesheet" href="slider.css">
+<script defer src="slider.js"></script>
+```
 2. Include the necessary HTML structure as shown in the provided `example.html` example.
 3. Customize the styles in `slider.css` to match your project's theme.
 
