@@ -20,48 +20,35 @@ To use the Element Slider Creator, follow these steps:
 <script defer src="slider.js"></script>
 ```
 2. Include the necessary HTML structure as shown in the provided `example.html` example.
-3. Customize the styles in `slider.css` to match your project's theme.
-
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Element Slider</title>
-    <link rel="stylesheet" href="slider.css">
-    <script defer src="slider.js"></script>
-</head>
-<body>
-   <div class="slider_parent">
+<div class="slider_parent">
             
-        <a class="slider_last">◀</a>
+    <a class="slider_last">◀</a>
 
-        <div class="slider_content">
-            <section>
-                <h1>Page1</h1>
-            </section>
+    <div class="slider_content">
+        <section>
+            <h1>Page1</h1>
+        </section>
     
-            <section>
-                <h1>Page2</h1>
-            </section>
+        <section>
+            <h1>Page2</h1>
+        </section>
     
-            <section>
-                <h1>Page3</h1>
-            </section>
+        <section>
+            <h1>Page3</h1>
+        </section>
     
-            <section>
-                <h1>Page4</h1>
-            </section>
-        </div>
+        <section>
+            <h1>Page4</h1>
+        </section>
+    </div>
 
-        <a class="slider_next">▶</a>
+    <a class="slider_next">▶</a>
 
-        <div class="dot_container"></div>
-    </div>  
-</body>
-</html>
+    <div class="dot_container"></div>
+</div>
 ```
+3. Customize the styles in `slider.css` to match your project's theme.
 
 ## Developer 
 This Project was Developed by [c4vxl](https://c4vxl.de)
